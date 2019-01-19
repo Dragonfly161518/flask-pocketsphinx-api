@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\lm</FILEPATH>
+      <FILENAME>lm_trie.c</FILENAME>
+      <LINE>227</LINE>
+      <COLUMN>42</COLUMN>
+    </SFA>
+    <DEFECTCODE>6001</DEFECTCODE>
+    <DESCRIPTION>Using uninitialized memory 'raw_ngram_ptrs'.</DESCRIPTION>
+    <FUNCTION>lm_trie_fix_counts</FUNCTION>
+    <DECORATED>lm_trie_fix_counts</DECORATED>
+    <FUNCLINE>176</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\lm</FILEPATH>
+        <FILENAME>lm_trie.c</FILENAME>
+        <LINE>179</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\lm</FILEPATH>
+        <FILENAME>lm_trie.c</FILENAME>
+        <LINE>181</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'raw_ngram_ptrs' is not initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\lm</FILEPATH>
+        <FILENAME>lm_trie.c</FILENAME>
+        <LINE>182</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\lm</FILEPATH>
+        <FILENAME>lm_trie.c</FILENAME>
+        <LINE>183</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\lm</FILEPATH>
+        <FILENAME>lm_trie.c</FILENAME>
+        <LINE>185</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\lm</FILEPATH>
+        <FILENAME>lm_trie.c</FILENAME>
+        <LINE>186</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\lm</FILEPATH>
+        <FILENAME>lm_trie.c</FILENAME>
+        <LINE>187</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\lm</FILEPATH>
+        <FILENAME>lm_trie.c</FILENAME>
+        <LINE>187</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'i&lt;=order' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\lm</FILEPATH>
+        <FILENAME>lm_trie.c</FILENAME>
+        <LINE>202</LINE>
+        <COLUMN>4</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume '1')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\lm</FILEPATH>
+        <FILENAME>lm_trie.c</FILENAME>
+        <LINE>203</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\lm</FILEPATH>
+        <FILENAME>lm_trie.c</FILENAME>
+        <LINE>204</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\lm</FILEPATH>
+        <FILENAME>lm_trie.c</FILENAME>
+        <LINE>205</LINE>
+        <COLUMN>40</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'priority_queue_size(ngrams)==0' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\lm</FILEPATH>
+        <FILENAME>lm_trie.c</FILENAME>
+        <LINE>208</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\lm</FILEPATH>
+        <FILENAME>lm_trie.c</FILENAME>
+        <LINE>209</LINE>
+        <COLUMN>23</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'top-&gt;order==2' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\lm</FILEPATH>
+        <FILENAME>lm_trie.c</FILENAME>
+        <LINE>213</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\lm</FILEPATH>
+        <FILENAME>lm_trie.c</FILENAME>
+        <LINE>213</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume 'i&lt;top-&gt;order-1' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\lm</FILEPATH>
+        <FILENAME>lm_trie.c</FILENAME>
+        <LINE>224</LINE>
+        <COLUMN>34</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\lm</FILEPATH>
+        <FILENAME>lm_trie.c</FILENAME>
+        <LINE>226</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'to_increment')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\lm</FILEPATH>
+        <FILENAME>lm_trie.c</FILENAME>
+        <LINE>227</LINE>
+        <COLUMN>42</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'raw_ngram_ptrs' is used, but may not have been initialized</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

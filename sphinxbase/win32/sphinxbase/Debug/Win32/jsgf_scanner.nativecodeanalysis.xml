@@ -1,0 +1,1293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+      <FILENAME>jsgf_scanner.c</FILENAME>
+      <LINE>1289</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'b-&gt;yy_ch_buf'. </DESCRIPTION>
+    <FUNCTION>yy_get_next_buffer</FUNCTION>
+    <DECORATED>yy_get_next_buffer</DECORATED>
+    <FUNCLINE>1209</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1211</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1212</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1213</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1214</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1214</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1215</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1217</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1221</LINE>
+        <COLUMN>47</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1243</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1245</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1245</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1248</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1256</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1259</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1263</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1265</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1268</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1283</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'b-&gt;yy_ch_buf' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1285</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '!b-&gt;yy_ch_buf')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1286</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1289</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'b-&gt;yy_ch_buf' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+      <FILENAME>jsgf_scanner.c</FILENAME>
+      <LINE>1334</LINE>
+      <COLUMN>54</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'yyg-&gt;yy_buffer_stack[yyg-&gt;yy_buffer_stack_top]-&gt;yy_ch_buf'. </DESCRIPTION>
+    <FUNCTION>yy_get_next_buffer</FUNCTION>
+    <DECORATED>yy_get_next_buffer</DECORATED>
+    <FUNCLINE>1209</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1211</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1212</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1213</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1214</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1214</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1215</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1217</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1221</LINE>
+        <COLUMN>47</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1243</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1245</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1245</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1248</LINE>
+        <COLUMN>49</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1256</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1259</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1296</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1300</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1303</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1306</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1323</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1325</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1327</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1328</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1329</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'yyg-&gt;yy_buffer_stack[yyg-&gt;yy_buffer_stack_top]-&gt;yy_ch_buf' may be NULL (Enter this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1330</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1333</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1334</LINE>
+        <COLUMN>54</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'yyg-&gt;yy_buffer_stack[yyg-&gt;yy_buffer_stack_top]-&gt;yy_ch_buf' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+      <FILENAME>jsgf_scanner.c</FILENAME>
+      <LINE>1499</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'yyg-&gt;yy_buffer_stack'. </DESCRIPTION>
+    <FUNCTION>yyrestart</FUNCTION>
+    <DECORATED>yyrestart</DECORATED>
+    <FUNCLINE>1493</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1495</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1497</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'yyg-&gt;yy_buffer_stack' may be NULL (Enter this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1498</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1499</LINE>
+        <COLUMN>27</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'yyg-&gt;yy_buffer_stack' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+      <FILENAME>jsgf_scanner.c</FILENAME>
+      <LINE>1532</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'yyg-&gt;yy_buffer_stack'. </DESCRIPTION>
+    <FUNCTION>yy_switch_to_buffer</FUNCTION>
+    <DECORATED>yy_switch_to_buffer</DECORATED>
+    <FUNCLINE>1511</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1513</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1520</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1521</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'yyg-&gt;yy_buffer_stack' may be NULL (Skip this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1524</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1532</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'yyg-&gt;yy_buffer_stack' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+      <FILENAME>jsgf_scanner.c</FILENAME>
+      <LINE>1566</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'b'. </DESCRIPTION>
+    <FUNCTION>yy_create_buffer</FUNCTION>
+    <DECORATED>yy_create_buffer</DECORATED>
+    <FUNCLINE>1558</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1560</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1562</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1563</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'b' may be NULL (Enter this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1564</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1566</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'b' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+      <FILENAME>jsgf_scanner.c</FILENAME>
+      <LINE>1626</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'b'. See line 1614 for an earlier location where this can occur</DESCRIPTION>
+    <FUNCTION>yy_init_buffer</FUNCTION>
+    <DECORATED>yy_init_buffer</DECORATED>
+    <FUNCLINE>1606</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1609</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1610</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1612</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1614</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1615</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1621</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'b' may be NULL (Skip this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1626</LINE>
+        <COLUMN>29</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'b' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+      <FILENAME>jsgf_scanner.c</FILENAME>
+      <LINE>1685</LINE>
+      <COLUMN>26</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'yyg-&gt;yy_buffer_stack'. </DESCRIPTION>
+    <FUNCTION>yypush_buffer_state</FUNCTION>
+    <DECORATED>yypush_buffer_state</DECORATED>
+    <FUNCLINE>1665</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1667</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1668</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1671</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1674</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'yyg-&gt;yy_buffer_stack' may be NULL (Skip this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1683</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1685</LINE>
+        <COLUMN>26</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'yyg-&gt;yy_buffer_stack' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+      <FILENAME>jsgf_scanner.c</FILENAME>
+      <LINE>1734</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'yyg-&gt;yy_buffer_stack' could be '0':  this does not adhere to the specification for the function 'memset'. </DESCRIPTION>
+    <FUNCTION>yyensure_buffer_stack</FUNCTION>
+    <DECORATED>yyensure_buffer_stack</DECORATED>
+    <FUNCLINE>1716</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1718</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1719</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1721</LINE>
+        <COLUMN>5</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '!yyg-&gt;yy_buffer_stack')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1727</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1728</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1731</LINE>
+        <COLUMN>7</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '!yyg-&gt;yy_buffer_stack')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1732</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1734</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'yy_buffer_stack' is an In/Out argument to 'memset' (declared at c:\program files (x86)\microsoft visual studio\2017\professional\vc\tools\msvc\14.16.27023\include\vcruntime_string.h:60)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1734</LINE>
+        <COLUMN>8</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'yyg-&gt;yy_buffer_stack' should not be NULL, because this is not consistent with the SAL annotation on 'memset'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+      <FILENAME>jsgf_scanner.c</FILENAME>
+      <LINE>1780</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'b'. </DESCRIPTION>
+    <FUNCTION>yy_scan_buffer</FUNCTION>
+    <DECORATED>yy_scan_buffer</DECORATED>
+    <FUNCLINE>1766</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1768</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1771</LINE>
+        <COLUMN>44</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1776</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1777</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'b' may be NULL (Enter this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1778</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1780</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'b' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+      <FILENAME>jsgf_scanner.c</FILENAME>
+      <LINE>1832</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'buf'. </DESCRIPTION>
+    <FUNCTION>yy_scan_bytes</FUNCTION>
+    <DECORATED>yy_scan_bytes</DECORATED>
+    <FUNCLINE>1816</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1818</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1819</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1820</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1821</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1824</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1825</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1826</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'buf' may be NULL (Enter this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1827</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1829</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1829</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1832</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'buf' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+      <FILENAME>jsgf_scanner.c</FILENAME>
+      <LINE>1841</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'b'. </DESCRIPTION>
+    <FUNCTION>yy_scan_bytes</FUNCTION>
+    <DECORATED>yy_scan_bytes</DECORATED>
+    <FUNCLINE>1816</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1818</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1819</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1820</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1821</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1824</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1825</LINE>
+        <COLUMN>5</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1826</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1829</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1829</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1832</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1834</LINE>
+        <COLUMN>3</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1835</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'b' may be NULL (Enter this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1836</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1841</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'b' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+      <FILENAME>jsgf_scanner.c</FILENAME>
+      <LINE>1971</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'yyg-&gt;yy_buffer_stack'. </DESCRIPTION>
+    <FUNCTION>yyset_lineno</FUNCTION>
+    <DECORATED>yyset_lineno</DECORATED>
+    <FUNCLINE>1963</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1965</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1968</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'yyg-&gt;yy_buffer_stack' may be NULL (Enter this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1969</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1971</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'yyg-&gt;yy_buffer_stack' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+      <FILENAME>jsgf_scanner.c</FILENAME>
+      <LINE>1971</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'yyg-&gt;yy_buffer_stack[yyg-&gt;yy_buffer_stack_top]'. </DESCRIPTION>
+    <FUNCTION>yyset_lineno</FUNCTION>
+    <DECORATED>yyset_lineno</DECORATED>
+    <FUNCLINE>1963</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1965</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1968</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'yyg-&gt;yy_buffer_stack[yyg-&gt;yy_buffer_stack_top]' may be NULL (Enter this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1969</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1971</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'yyg-&gt;yy_buffer_stack[yyg-&gt;yy_buffer_stack_top]' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+      <FILENAME>jsgf_scanner.c</FILENAME>
+      <LINE>1986</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'yyg-&gt;yy_buffer_stack'. </DESCRIPTION>
+    <FUNCTION>yyset_column</FUNCTION>
+    <DECORATED>yyset_column</DECORATED>
+    <FUNCLINE>1978</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1980</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1983</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'yyg-&gt;yy_buffer_stack' may be NULL (Enter this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1984</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1986</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'yyg-&gt;yy_buffer_stack' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+      <FILENAME>jsgf_scanner.c</FILENAME>
+      <LINE>1986</LINE>
+      <COLUMN>13</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'yyg-&gt;yy_buffer_stack[yyg-&gt;yy_buffer_stack_top]'. </DESCRIPTION>
+    <FUNCTION>yyset_column</FUNCTION>
+    <DECORATED>yyset_column</DECORATED>
+    <FUNCLINE>1978</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1980</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1983</LINE>
+        <COLUMN>12</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'yyg-&gt;yy_buffer_stack[yyg-&gt;yy_buffer_stack_top]' may be NULL (Enter this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1984</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_scanner.c</FILENAME>
+        <LINE>1986</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'yyg-&gt;yy_buffer_stack[yyg-&gt;yy_buffer_stack_top]' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

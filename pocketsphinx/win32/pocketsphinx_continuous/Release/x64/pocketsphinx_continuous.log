@@ -1,0 +1,4 @@
+﻿  continuous.c
+d:\resource dper\logic\pocketsphinx\src\programs\continuous.c(110): warning C4244: '=': conversion from 'float64' to 'float', possible loss of data
+d:\resource dper\logic\pocketsphinx\src\programs\continuous.c(175): warning C4267: '=': conversion from 'size_t' to 'int32', possible loss of data
+  pocketsphinx_continuous.vcxproj -> D:\Resource DPER\Logic\pocketsphinx\\bin\Release\x64\pocketsphinx_continuous.exe

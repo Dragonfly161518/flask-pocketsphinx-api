@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+      <FILENAME>bio.c</FILENAME>
+      <LINE>81</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '16388' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>bcomment_read</FUNCTION>
+    <DECORATED>bcomment_read</DECORATED>
+    <FUNCLINE>81</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+      <FILENAME>bio.c</FILENAME>
+      <LINE>187</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6262</DEFECTCODE>
+    <DESCRIPTION>Function uses '20508' bytes of stack:  exceeds /analyze:stacksize '16384'.  Consider moving some data to heap.</DESCRIPTION>
+    <FUNCTION>bio_readhdr</FUNCTION>
+    <DECORATED>bio_readhdr</DECORATED>
+    <FUNCLINE>187</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

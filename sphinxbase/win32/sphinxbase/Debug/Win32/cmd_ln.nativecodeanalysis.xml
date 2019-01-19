@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+      <FILENAME>cmd_ln.c</FILENAME>
+      <LINE>184</LINE>
+      <COLUMN>11</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'*dest' could be '0':  this does not adhere to the specification for the function 'strncat'. </DESCRIPTION>
+    <FUNCTION>strnappend</FUNCTION>
+    <DECORATED>strnappend</DECORATED>
+    <FUNCLINE>158</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>161</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>161</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>163</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>165</LINE>
+        <COLUMN>22</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'*dest' may be NULL (Skip this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>167</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'source==(((void *)0))' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>170</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>171</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>174</LINE>
+        <COLUMN>24</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'*dest' is an Input to 'strlen' (declared at c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h:219)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>175</LINE>
+        <COLUMN>25</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>184</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'*dest' is an In/Out argument to 'strncat' (declared at c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\string.h:266)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>184</LINE>
+        <COLUMN>11</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'*dest' should not be NULL, because this is not consistent with the SAL annotation on 'strncat'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+      <FILENAME>cmd_ln.c</FILENAME>
+      <LINE>640</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>6011</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer 'argdef'. </DESCRIPTION>
+    <FUNCTION>cmd_ln_parse_r</FUNCTION>
+    <DECORATED>cmd_ln_parse_r</DECORATED>
+    <FUNCLINE>556</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>558</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>558</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>558</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>558</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>559</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>560</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>563</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>568</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>571</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>572</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>585</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>589</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>594</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>595</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>600</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>600</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>601</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>602</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>603</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>605</LINE>
+        <COLUMN>51</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>615</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>618</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>624</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'argdef' may be NULL (Enter this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>625</LINE>
+        <COLUMN>16</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>635</LINE>
+        <COLUMN>70</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '&lt;branch condition&gt;')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>638</LINE>
+        <COLUMN>16</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'strict')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>639</LINE>
+        <COLUMN>31</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+        <FILENAME>cmd_ln.c</FILENAME>
+        <LINE>640</LINE>
+        <COLUMN>0</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'argdef' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

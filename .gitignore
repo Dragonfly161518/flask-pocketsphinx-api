@@ -1,0 +1,12 @@
+.idea
+venv
+build
+dist
+MANIFEST
+*.pyd
+*.egg-info
+*.so
+__pycache__
+*.DS_Store
+.AppleDouble
+.LSOverride

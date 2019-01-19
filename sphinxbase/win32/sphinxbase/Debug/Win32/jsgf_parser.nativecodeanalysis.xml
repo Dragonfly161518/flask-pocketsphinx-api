@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+      <FILENAME>jsgf_parser.c</FILENAME>
+      <LINE>316</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'malloc': this instance has no annotations. See c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_malloc.h(97). </DESCRIPTION>
+    <FUNCTION>malloc</FUNCTION>
+    <DECORATED>malloc</DECORATED>
+    <FUNCLINE>316</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+      <FILENAME>jsgf_parser.c</FILENAME>
+      <LINE>323</LINE>
+      <COLUMN>5</COLUMN>
+    </SFA>
+    <DEFECTCODE>28251</DEFECTCODE>
+    <DESCRIPTION>Inconsistent annotation for 'free': this instance has no annotations. See c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\corecrt_malloc.h(85). </DESCRIPTION>
+    <FUNCTION>free</FUNCTION>
+    <DECORATED>free</DECORATED>
+    <FUNCLINE>323</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+      <FILENAME>jsgf_parser.c</FILENAME>
+      <LINE>1330</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'yypact':  the readable size is '58' bytes, but 'yystate' bytes may be read.</DESCRIPTION>
+    <FUNCTION>yyparse</FUNCTION>
+    <DECORATED>yyparse</DECORATED>
+    <FUNCLINE>1159</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1169</LINE>
+        <COLUMN>4</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1172</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1175</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1177</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1179</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1189</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1190</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1191</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1194</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1195</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1196</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1198</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1200</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1201</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1203</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1206</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1210</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1211</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1212</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1219</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1221</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1222</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1223</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1224</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1228</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1229</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1230</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1231</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1237</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1238</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1240</LINE>
+        <COLUMN>2</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Go to yysetstate</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1250</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1251</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1253</LINE>
+        <COLUMN>29</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'yyss+yystacksize-1&lt;=yyssp' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1316</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'yystate==7' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1319</LINE>
+        <COLUMN>2</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Go to yybackup</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1324</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1330</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1331</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'yyn==-37' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1337</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'yychar==((-2))')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1340</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1343</LINE>
+        <COLUMN>13</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'yychar&lt;=0' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1350</LINE>
+        <COLUMN>14</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1356</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1357</LINE>
+        <COLUMN>30</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1359</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1360</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'yyn&lt;=0')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1362</LINE>
+        <COLUMN>19</COLUMN>
+        <KEYEVENT>
+          <ID>10</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'yyn==0||yyn==-1' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1364</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1365</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>11</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Go to yyreduce</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1398</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1400</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1410</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1414</LINE>
+        <COLUMN>10</COLUMN>
+        <KEYEVENT>
+          <ID>12</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Assume switch ( 'yyn' ) resolves to case 5: </MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1416</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.y</FILENAME>
+        <LINE>87</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1584</LINE>
+        <COLUMN>2</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1585</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1588</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1594</LINE>
+        <COLUMN>6</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1596</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1597</LINE>
+        <COLUMN>40</COLUMN>
+        <KEYEVENT>
+          <ID>13</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume '&lt;branch condition&gt;')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1598</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1602</LINE>
+        <COLUMN>2</COLUMN>
+        <KEYEVENT>
+          <ID>14</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Go to yynewstate</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1245</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1248</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1250</LINE>
+        <COLUMN>1</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1251</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1253</LINE>
+        <COLUMN>29</COLUMN>
+        <KEYEVENT>
+          <ID>15</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume 'yyss+yystacksize-1&lt;=yyssp' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1316</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>16</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'yystate' may equal 7 (Skip this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1319</LINE>
+        <COLUMN>2</COLUMN>
+        <KEYEVENT>
+          <ID>17</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Go to yybackup</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1324</LINE>
+        <COLUMN>0</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\resource dper\logic\sphinxbase\win32\sphinxbase</FILEPATH>
+        <FILENAME>jsgf_parser.c</FILENAME>
+        <LINE>1330</LINE>
+        <COLUMN>6</COLUMN>
+        <KEYEVENT>
+          <ID>18</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'yypact[-2]', (readable range is 0 to 57)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

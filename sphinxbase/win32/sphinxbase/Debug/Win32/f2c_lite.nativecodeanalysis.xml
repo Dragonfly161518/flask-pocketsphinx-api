@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+      <FILENAME>f2c_lite.c</FILENAME>
+      <LINE>69</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>f__cabs</FUNCTION>
+    <DECORATED>f__cabs</DECORATED>
+    <FUNCLINE>51</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+      <FILENAME>f2c_lite.c</FILENAME>
+      <LINE>458</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>z_sqrt</FUNCTION>
+    <DECORATED>z_sqrt</DECORATED>
+    <FUNCLINE>450</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\resource dper\logic\sphinxbase\src\libsphinxbase\util</FILEPATH>
+      <FILENAME>f2c_lite.c</FILENAME>
+      <LINE>462</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>z_sqrt</FUNCTION>
+    <DECORATED>z_sqrt</DECORATED>
+    <FUNCLINE>450</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
